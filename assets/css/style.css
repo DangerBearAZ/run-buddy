@@ -199,6 +199,9 @@ section {
     align-items: center;
     justify-content: space-between;
 }
+.step-img img{
+    max-width: 100%;
+}
 /*utility class*/
 .text-left {
     text-align: left;
