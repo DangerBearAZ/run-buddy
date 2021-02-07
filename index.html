@@ -13,11 +13,8 @@
             <a href="/">RUN BUDDY</a>
         </h1>
         <nav>
-            <!-- Unordered list element -->
             <ul>
-                <!--List item element-->
                 <li>
-                    <!-- anchor element -->
                     <a href= "#what-we-do">What We Do</a>
                 </li>
                 <li>
@@ -32,6 +29,8 @@
             </ul>
         </nav>
         </header>
+        <!--End navigation-->
+        <!--hero/jumbotron-->
         <section class="hero">
             <div class="hero-cta">
             <h2> Start Building Habits.</h2>
@@ -40,11 +39,10 @@
             </p>
             </div>
         </div>
-        <!-- form  -->
+        <!-- form -->
             <div class="hero-form">
                 <h3>Get Started Today</h3>
                 <p>Fill out this form and one of our trainers will schedule a consult</p>
-            
                 <form>
                     <label for= "name">Enter full Name:</label>
                     <input type="text" placeholder= "Your Name" name="name" id="name" class="form-input">
@@ -54,27 +52,30 @@
                     <input type= "tel" placeholder="Phone Number" name="phone" id="phone" class="form-input">
                     <p>
                         Have you worked out with a trainer before?
+                    <span class="radio-wrapper">
                         <input type="radio" name="trainer-confirm" id="trainer-yes" />
                         <label for= "trainer-yes">Yes</label>
+                    </span>
+                    <span class="radio-wrapper">
                         <input type= "radio" name="trainer-confirm" id="trainer-no" />
                         <label for= "trainer-no">No</label>
+                    </span>
                     </p>
                     <p>
-                            <label for ="checkbox" >
-                            I acknowledge that I am at least 18 years of age
+                    <span class="checkbox-wrapper">
                         <input type="checkbox" name="age-confirm" id="checkbox"/>
-                        </p>
+                        <label for ="checkbox"> I acknowledge that I am at least 18 years of age</label>
+                    </span>
+                    </p>
                         <button type= "submit">
                             Get running!
                         </button>
                 </form>
             </div>
         </section>
-        <!-- end hero-->
-        <!-- hero/jumbotro -->
-<section>
-</section>
-<!-- "What We Do "section -->
+        <!-- end hero header -->
+
+<!-- "What We Do " start - <section_section -->
 <section id="what-we-do" class="intro">
     <div class="flex-row">
     <h2 class="section-title primary-border"> 
@@ -87,11 +88,15 @@
     </p>
 </div>
 </section>
-<!-- "what you do" section-->
+<!--end "what we do"--> 
+<!-- "what you do" start-->
 <section id="what-you-do" class="steps">
-    <h2 class="section-title secondary-border">What You Do</h2>
-
-    <div class="step">
+    <div class="flex-row">
+    <h2 class="section-title secondary-border">
+        What You Do
+    </h2>
+</div>
+<div class="step">
         <h3>Step 1: </h3>
         <div class="step-info">
          <div class= "step-img">
@@ -103,7 +108,6 @@
          </div>   
         </div>
     </div>
-
     <div class="step">
         <h3> Step 2: </h3>
         <div class= "step-info">
@@ -111,7 +115,7 @@
             <img src="./assets/images/step-2.svg" alt="" />
         </div>
         <div class= "step-text">
-        <h4>Fill out The Form Above</h4>
+        <h4>Consult With One Of Our Trainers</h4>
         <p>Are you here to build muscel, lose weight, or just feel good?</p>
      </div>
     </div>
@@ -124,7 +128,7 @@
         <img src= "assets/images/step-3.svg" alt=""/>
         </div>
         <div class= "step-text">
-            <h4>Fill Out The Form Above </h4>
+            <h4>Get Running </h4>
         <p>Hit the ground running(literally) once your trainer lays out your plan.</p>
         </div>
         </div>
@@ -137,19 +141,22 @@
          <img src= "./assets/images/step-4.svg" alt= "" />
          </div>
          <div class="step-text">
-            <h4>Fill Out The Form Above </h4>
+            <h4>See Results </h4>
          <p> Bi-weekly checkins with your trainer will keep you focused</p> 
          </div> 
          </div>  
     </div>
 </section>
+<!-- what you do ends-->
 
 <!-- "Meet the Trainers" section-->
-</div>
 <section id="your-trainers">
+    <div class="flex-row">
     <h2 class="section-title primary-border">
         Meet The Trainers
- </h2> 
+    </h2> 
+    </div>
+
  <!--1st trainer bio -->
 <div class="trainers">
  <article class="trainer">
@@ -162,10 +169,11 @@
      </p>
  </div>
 </article>
+
 <!--2nd trainer bio -->
 <article class="trainer">
     <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
-<div class= "trainer-bio">
+    <div class= "trainer-bio">
     <h3 class="trainer-name"> Joanna Gill</h3>
     <h4 class= "trainer-roll"> Endurance</h4>
     <p>
@@ -174,6 +182,7 @@
       </p>  
 </div>
 </article>
+
 <!-- 3rd trainer bio-->
 <article class="trainer">
 <img src="assets/images/trainer-3.jpg" alt= Harry Smith wearing a headband and lifting comically small pink weights: />
@@ -188,7 +197,7 @@
 </article>
 </div>
 </section>
-</div>
+
 <!-- "Reach out" section-->
 <section id="reach-out" class= "contact">  
     <div class= "flex-row">
@@ -196,6 +205,7 @@
         Reach Out
     </h2>
 </div>
+
     <div class="contact-info">
         <div>
         <h3>Run Buddy</h3>
